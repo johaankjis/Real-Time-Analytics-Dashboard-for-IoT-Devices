@@ -423,14 +423,24 @@ const nextConfig = {
 shadcn/ui configuration for component generation and styling:
 ```json
 {
-  "style": "default",
+  "style": "new-york",
+  "rsc": true,
+  "tsx": true,
   "tailwind": {
-    "css": "app/globals.css"
+    "config": "",
+    "css": "app/globals.css",
+    "baseColor": "neutral",
+    "cssVariables": true,
+    "prefix": ""
   },
   "aliases": {
     "components": "@/components",
-    "utils": "@/lib/utils"
-  }
+    "utils": "@/lib/utils",
+    "ui": "@/components/ui",
+    "lib": "@/lib",
+    "hooks": "@/hooks"
+  },
+  "iconLibrary": "lucide"
 }
 ```
 
