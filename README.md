@@ -55,10 +55,10 @@ Open [http://localhost:3000](http://localhost:3000) in your browser to see the d
 
 ### Metrics Grid
 Displays four key performance indicators:
-- Events/sec - Real-time event throughput
-- Active Devices - Number of connected devices
-- Data Processed - Total data volume
-- Alerts - Current system alerts
+- Events/sec - Real-time event throughput (integer count, updates every 2 seconds)
+- Active Devices - Number of connected devices (integer count)
+- Data Processed - Total data volume (displayed in MB/GB)
+- Alerts - Current system alerts (integer count with trend indicators)
 
 ### Device List
 Grid view of connected IoT devices showing:
